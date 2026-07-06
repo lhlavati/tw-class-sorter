@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "tw-sort",
+  "version": "1.0.0",
+  "description": "Sort Tailwind classes in Hyvä (Magento 2) .phtml class=\"...\" attributes into the official recommended order.",
+  "author": { "name": "lhlavati" }
+}

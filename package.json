@@ -1,0 +1,15 @@
+{
+  "name": "tw-class-sorter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "bin": { "tw-sort": "./sort-classes.mjs" },
+  "description": "Deterministic Tailwind class sorter for Hyvä (Magento 2) .phtml templates.",
+  "repository": { "type": "git", "url": "git+ssh://git@github.com/lhlavati/tw-class-sorter.git" },
+  "engines": { "node": ">=18" },
+  "files": ["sort-classes.mjs"],
+  "dependencies": {
+    "prettier": "3.9.4",
+    "prettier-plugin-tailwindcss": "0.6.14"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lhlavati-tools",
+  "owner": { "name": "lhlavati" },
+  "plugins": [
+    {
+      "name": "tw-sort",
+      "source": "./",
+      "description": "Sort Tailwind classes in Hyvä (Magento 2) .phtml into the official recommended order."
+    }
+  ]
+}
