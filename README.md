@@ -28,7 +28,7 @@ the theme root and uses that theme's own Tailwind entry
 ### 1. Install the CLI globally — works in every Hyvä project
 
 ```bash
-npm i -g git+ssh://git@github.com/lhlavati/tw-class-sorter.git
+npm i -g github:lhlavati/tw-class-sorter
 tw-sort --help          # sanity check
 ```
 Update later with the same command. To uninstall: `npm rm -g tw-class-sorter`.
@@ -36,7 +36,7 @@ Update later with the same command. To uninstall: `npm rm -g tw-class-sorter`.
 ### 2. Install the Claude Code plugin (adds the `/sort-tailwind` skill)
 
 ```
-/plugin marketplace add git@github.com:lhlavati/tw-class-sorter.git
+/plugin marketplace add lhlavati/tw-class-sorter
 /plugin install tw-sort@lhlavati-tools
 ```
 Invoke as `/tw-sort:sort-tailwind` (or just ask Claude to "sort the Tailwind classes").

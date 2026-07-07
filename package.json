@@ -5,7 +5,7 @@
   "type": "module",
   "bin": { "tw-sort": "./sort-classes.mjs" },
   "description": "Deterministic Tailwind class sorter for Hyvä (Magento 2) .phtml templates.",
-  "repository": { "type": "git", "url": "git+ssh://git@github.com/lhlavati/tw-class-sorter.git" },
+  "repository": { "type": "git", "url": "git+https://github.com/lhlavati/tw-class-sorter.git" },
   "engines": { "node": ">=18" },
   "files": ["sort-classes.mjs"],
   "dependencies": {

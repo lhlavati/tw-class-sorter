@@ -20,8 +20,8 @@ tw-sort --write <path>     # apply in place
 If `tw-sort` is not found on PATH (colleague hasn't run the global install), fall back to
 running it straight from the repo with npx — same flags:
 ```
-npx --yes git+ssh://git@github.com/lhlavati/tw-class-sorter.git --check <path>
-npx --yes git+ssh://git@github.com/lhlavati/tw-class-sorter.git --write <path>
+npx --yes github:lhlavati/tw-class-sorter --check <path>
+npx --yes github:lhlavati/tw-class-sorter --write <path>
 ```
 
 `<path>` may be a single `.phtml` file, a directory (scanned recursively for `*.phtml`), or
